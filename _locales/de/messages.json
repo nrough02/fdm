@@ -1,0 +1,152 @@
+{
+  "appName": {
+    "message": "Free Download Manager",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appShortName": {
+    "message": "FDM",
+    "description": "Short name of the application, displayed in appropriate contexts."
+  },
+  "appDesc": {
+    "message": "Free Download Manager Integration mit dem Browser",
+    "description": "The description of the application, displayed in the web store."
+  },
+
+  "section_context_menu": {
+    "message": ".",
+    "description": "=== CONTEXT MENU START ==="
+  },
+  "menuThis": {
+    "message": "Mit Free Download Manager herunterladen",
+    "description": "Context menu item for links and images"
+  },
+  "menuAll": {
+    "message": "Alles mit Free Download Manager herunterladen",
+    "description": "Context menu item for pages"
+  },
+  "menuSelected": {
+    "message": "Auswahl mit Free Download Manager herunterladen",
+    "description": "Context menu item for selection"
+  },
+  "menuVideo": {
+    "message": "Video mit Free Download Manager herunterladen",
+    "description": "Context menu item for videos"
+  },
+  "menuChannelVideos": {
+    "message": "Kanal-Videos mit Free Download Manager herunterladen",
+    "description": "Context menu item for channel videos"
+  },
+  "menuVideoShort": {
+    "message": "Video herunterladen",
+    "description": "Context menu item for videos"
+  },
+  "menuChannelVideosShort": {
+    "message": "Kanal-Videos herunterladen",
+    "description": "Context menu item for channel videos"
+  },
+  "menuPlaylistVideosShort": {
+    "message": "Playlist-Videos herunterladen",
+    "description": "Context menu item for playlist videos"
+  },
+  "menuSite": {
+    "message": "Webseite mit Free Download Manager herunterladen",
+    "description": "Context menu item for site"
+  },
+
+  "section_service_messages_start": {
+    "message": ".",
+    "description": "=== SERVICE MESSAGES START ==="
+  },
+  "installCorrupted": {
+    "message": "Die Installation von Free Download Manager ist beschädigt. Bitte installieren Sie es neu.",
+    "description": "Message on corrupted FDM installation."
+  },
+  "installMissing": {
+    "message": "Free Download Manager Installation wurde nicht gefunden. Bitte installieren Sie es.",
+    "description": "Message on missing FDM installation."
+  },
+  "installUnknownError": {
+    "message": "Unbekannter Fehler. Bitte installieren Sie Free Download Manager neu.",
+    "description": "Message on unknown error with FDM installation."
+  },
+  "addingAfterCancelFailed": {
+    "message": "Der Browser hat den Download abgelehnt. Sie können den Download über den Browser wiederholen, indem Sie erneut auf den Download-Link klicken",
+    "description": "Message to display if user hit Cancel in FDM and adding to browser is failed"
+  },
+  "dlbyfdm": {
+    "message": "Mit FDM herunterladen",
+    "description": "Download button for video"
+  },
+
+  "section_settings_start": {
+    "message": ".",
+    "description": "=== SETTINGS PAGE START ==="
+  },
+  "settings_loading": {
+    "message": "Wird geladen...",
+    "description": "Loading message shown during settings initialization"
+  },
+  "settings_pause_downloads": {
+    "message": "Downloads von allen Websites pausieren",
+    "description": "Pause to catch downloads option"
+  },
+  "settings_dont_catch_downloads": {
+    "message": "Downloads von dieser Website nicht abfangen",
+    "description": "Don't catch downloads option"
+  },
+  "settings_update_message": {
+    "message": "Einstellungen sind für Ihre FDM-Version nicht verfügbar.<br />Bitte <a href='https://www.freedownloadmanager.org/download.htm' target='_blank'>aktualisieren</a> Sie es.",
+    "description": "Message about updating FDM"
+  },
+  "settings_options": {
+    "message": "Optionen",
+    "description": "Options"
+  },
+  "settings_help_and_feedback": {
+    "message": "Hilfe und Feedback",
+    "description": "Help and Feedback"
+  },
+
+  "section_install_start": {
+    "message": ".",
+    "description": "=== INSTALL PAGE START ==="
+  },
+  "install_successfully": {
+    "message": "FDM-Erweiterung wurde erfolgreich installiert",
+    "description": "FDM extension successfully installed"
+  },
+  "install_set_up_fdm": {
+    "message": "Bitte installieren Sie Free Download Manager, um die Erweiterung zu nutzen. <br /> Verfügbar für Windows und Mac.",
+    "description": "To use it, please set up Free Download Manager. <br /> It's available for Windows and Mac."
+  },
+  "install_free_save": {
+    "message": "Es ist schnell, kostenlos und sicher.",
+    "description": "It's fast, free and safe."
+  },
+  "install_action": {
+    "message": "Installieren",
+    "description": "Install"
+  },
+
+  "section_consent_start": {
+    "message": ".",
+    "description": "=== CONSENT PAGE START ==="
+  },
+  "consent_title": {
+    "message": "Datenschutz der FDM-Erweiterung",
+    "description": "Privacy consent page title"
+  },
+  "consent_text": {
+    "message": "<p>Free Download Manager erfasst und teilt keine personenbezogenen Daten öffentlich oder mit Dritten.</p><p>Wenn ein Browser einen Download startet, verwendet die Free Download Manager-Erweiterung nur die Daten, die zum Herunterladen dieser Datei von dieser bestimmten Website erforderlich sind. Diese Daten sind erforderlich, um den Download zu starten oder fortzusetzen oder diesen Download in Free Download Manager zu planen. Die Daten können URL, Internetadresse, Cookies, Abfrageparameter, Post-Daten enthalten, nämlich alle Daten, die der Browser beim Anfordern der Datei an den Server sendet.</p><p>Diese Daten werden nur auf dem lokalen Computer verwendet, um den Download zu starten.</p><p>Wenn Sie uns die Erfassung anonymer Daten nicht erlauben möchten, wird die FDM-Erweiterung sofort aus Ihrem Browser entfernt.</p><p>Vollständige Details zu den anonymen Daten, die wir erfassen, und was wir damit machen, finden Sie in unserer <a class='privacy_link' href='https://www.freedownloadmanager.org/privacy.htm' target='_blank'>Datenschutzerklärung</a>.</p>",
+    "description": "Privacy consent text with policy link"
+  },
+  "consent_agree": {
+    "message": "Anonyme Datenerfassung zulassen",
+    "description": "Agree button text"
+  },
+  "consent_decline": {
+    "message": "Anonyme Datenerfassung ablehnen",
+    "description": "Decline button text"
+  }
+
+}
