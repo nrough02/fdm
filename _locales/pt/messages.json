@@ -1,0 +1,152 @@
+{
+  "appName": {
+    "message": "Free Download Manager",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appShortName": {
+    "message": "FDM",
+    "description": "Short name of the application, displayed in appropriate contexts."
+  },
+  "appDesc": {
+    "message": "Integração do Free Download Manager com o navegador",
+    "description": "The description of the application, displayed in the web store."
+  },
+
+  "section_context_menu": {
+    "message": ".",
+    "description": "=== CONTEXT MENU START ==="
+  },
+  "menuThis": {
+    "message": "Baixar com Free Download Manager",
+    "description": "Context menu item for links and images"
+  },
+  "menuAll": {
+    "message": "Baixar tudo com Free Download Manager",
+    "description": "Context menu item for pages"
+  },
+  "menuSelected": {
+    "message": "Baixar seleção com Free Download Manager",
+    "description": "Context menu item for selection"
+  },
+  "menuVideo": {
+    "message": "Baixar vídeo com Free Download Manager",
+    "description": "Context menu item for videos"
+  },
+  "menuChannelVideos": {
+    "message": "Baixar vídeos do canal com Free Download Manager",
+    "description": "Context menu item for channel videos"
+  },
+  "menuVideoShort": {
+    "message": "Baixar vídeo",
+    "description": "Context menu item for videos"
+  },
+  "menuChannelVideosShort": {
+    "message": "Baixar vídeos do canal",
+    "description": "Context menu item for channel videos"
+  },
+  "menuPlaylistVideosShort": {
+    "message": "Baixar vídeos da playlist",
+    "description": "Context menu item for playlist videos"
+  },
+  "menuSite": {
+    "message": "Baixar site com Free Download Manager",
+    "description": "Context menu item for site"
+  },
+
+  "section_service_messages_start": {
+    "message": ".",
+    "description": "=== SERVICE MESSAGES START ==="
+  },
+  "installCorrupted": {
+    "message": "A instalação do Free Download Manager está corrompida. Por favor, reinstale-o.",
+    "description": "Message on corrupted FDM installation."
+  },
+  "installMissing": {
+    "message": "Instalação do Free Download Manager não encontrada. Por favor, instale-o.",
+    "description": "Message on missing FDM installation."
+  },
+  "installUnknownError": {
+    "message": "Erro desconhecido. Por favor, reinstale o Free Download Manager.",
+    "description": "Message on unknown error with FDM installation."
+  },
+  "addingAfterCancelFailed": {
+    "message": "O navegador rejeitou o download. Você pode tentar baixar novamente pelo navegador clicando no link de download mais uma vez",
+    "description": "Message to display if user hit Cancel in FDM and adding to browser is failed"
+  },
+  "dlbyfdm": {
+    "message": "Baixar com FDM",
+    "description": "Download button for video"
+  },
+
+  "section_settings_start": {
+    "message": ".",
+    "description": "=== SETTINGS PAGE START ==="
+  },
+  "settings_loading": {
+    "message": "Cargando...",
+    "description": "Loading message shown during settings initialization"
+  },
+  "settings_pause_downloads": {
+    "message": "Pausar captura de downloads de todos os sites",
+    "description": "Pause to catch downloads option"
+  },
+  "settings_dont_catch_downloads": {
+    "message": "Não capturar downloads deste site",
+    "description": "Don't catch downloads option"
+  },
+  "settings_update_message": {
+    "message": "As configurações não estão disponíveis para sua versão do FDM.<br />Por favor, <a href='https://www.freedownloadmanager.org/download.htm' target='_blank'>atualize</a> o programa.",
+    "description": "Message about updating FDM"
+  },
+  "settings_options": {
+    "message": "Opções",
+    "description": "Options"
+  },
+  "settings_help_and_feedback": {
+    "message": "Ajuda e Feedback",
+    "description": "Help and Feedback"
+  },
+
+  "section_install_start": {
+    "message": ".",
+    "description": "=== INSTALL PAGE START ==="
+  },
+  "install_successfully": {
+    "message": "Extensão FDM instalada com sucesso",
+    "description": "FDM extension successfully installed"
+  },
+  "install_set_up_fdm": {
+    "message": "Para usá-la, por favor instale o Free Download Manager. <br /> Disponível para Windows e Mac.",
+    "description": "To use it, please set up Free Download Manager. <br /> It's available for Windows and Mac."
+  },
+  "install_free_save": {
+    "message": "É rápido, gratuito e seguro.",
+    "description": "It's fast, free and safe."
+  },
+  "install_action": {
+    "message": "Instalar",
+    "description": "Install"
+  },
+
+  "section_consent_start": {
+    "message": ".",
+    "description": "=== CONSENT PAGE START ==="
+  },
+  "consent_title": {
+    "message": "Privacidade da extensão FDM",
+    "description": "Privacy consent page title"
+  },
+  "consent_text": {
+    "message": "<p>O Free Download Manager não coleta nem compartilha publicamente ou com terceiros nenhuma informação de identificação pessoal.</p><p>Quando um navegador inicia um download, a extensão Free Download Manager usa apenas os dados necessários para baixar este arquivo deste site específico. Esses dados são necessários para iniciar ou retomar o download, ou agendar este download no Free Download Manager. Os dados podem incluir URL, endereço de internet, cookies, parâmetros de consulta, dados de postagem, ou seja, todos os dados que o navegador envia ao servidor ao solicitar o arquivo.</p><p>Esses dados são usados apenas no computador local para iniciar o download.</p><p>Se você optar por não nos permitir coletar dados anônimos, a extensão FDM será imediatamente removida do seu navegador.</p><p>Detalhes completos sobre os dados anônimos que coletamos e o que fazemos com eles são fornecidos em nossa <a class='privacy_link' href='https://www.freedownloadmanager.org/privacy.htm' target='_blank'>Política de Privacidade</a>.</p>",
+    "description": "Privacy consent text with policy link"
+  },
+  "consent_agree": {
+    "message": "Concordar com a coleta de dados anônimos",
+    "description": "Agree button text"
+  },
+  "consent_decline": {
+    "message": "Recusar a coleta de dados anônimos",
+    "description": "Decline button text"
+  }
+
+}

@@ -1,0 +1,152 @@
+{
+  "appName": {
+    "message": "Free Download Manager",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appShortName": {
+    "message": "FDM",
+    "description": "Short name of the application, displayed in appropriate contexts."
+  },
+  "appDesc": {
+    "message": "Интеграция Free Download Manager с браузером",
+    "description": "The description of the application, displayed in the web store."
+  },
+
+  "section_context_menu": {
+    "message": ".",
+    "description": "=== CONTEXT MENU START ==="
+  },
+  "menuThis": {
+    "message": "Скачать с помощью Free Download Manager",
+    "description": "Context menu item for links and images"
+  },
+  "menuAll": {
+    "message": "Скачать всё с помощью Free Download Manager",
+    "description": "Context menu item for pages"
+  },
+  "menuSelected": {
+    "message": "Скачать выделенное с помощью Free Download Manager",
+    "description": "Context menu item for selection"
+  },
+  "menuVideo": {
+    "message": "Скачать видео с помощью Free Download Manager",
+    "description": "Context menu item for videos"
+  },
+  "menuChannelVideos": {
+    "message": "Скачать видео канала с помощью Free Download Manager",
+    "description": "Context menu item for channel videos"
+  },
+  "menuVideoShort": {
+    "message": "Скачать видео",
+    "description": "Context menu item for videos"
+  },
+  "menuChannelVideosShort": {
+    "message": "Скачать видео канала",
+    "description": "Context menu item for channel videos"
+  },
+  "menuPlaylistVideosShort": {
+    "message": "Скачать видео плейлиста",
+    "description": "Context menu item for playlist videos"
+  },
+  "menuSite": {
+    "message": "Скачать веб-сайт с помощью Free Download Manager",
+    "description": "Context menu item for site"
+  },
+
+  "section_service_messages_start": {
+    "message": ".",
+    "description": "=== SERVICE MESSAGES START ==="
+  },
+  "installCorrupted": {
+    "message": "Установка Free Download Manager повреждена. Пожалуйста, переустановите программу.",
+    "description": "Message on corrupted FDM installation."
+  },
+  "installMissing": {
+    "message": "Free Download Manager не найден. Пожалуйста, установите программу.",
+    "description": "Message on missing FDM installation."
+  },
+  "installUnknownError": {
+    "message": "Неизвестная ошибка. Пожалуйста, переустановите Free Download Manager.",
+    "description": "Message on unknown error with FDM installation."
+  },
+  "addingAfterCancelFailed": {
+    "message": "Браузер отклонил загрузку. Вы можете повторить загрузку через браузер, нажав на ссылку загрузки ещё раз",
+    "description": "Message to display if user hit Cancel in FDM and adding to browser is failed"
+  },
+  "dlbyfdm": {
+    "message": "Скачать с помощью FDM",
+    "description": "Download button for video"
+  },
+
+  "section_settings_start": {
+    "message": ".",
+    "description": "=== SETTINGS PAGE START ==="
+  },
+  "settings_loading": {
+    "message": "Загрузка...",
+    "description": "Loading message shown during settings initialization"
+  },
+  "settings_pause_downloads": {
+    "message": "Приостановить все перехваты загрузок",
+    "description": "Pause to catch downloads option"
+  },
+  "settings_dont_catch_downloads": {
+    "message": "Не перехватывать загрузки с этого сайта",
+    "description": "Don't catch downloads option"
+  },
+  "settings_update_message": {
+    "message": "Настройки недоступны для вашей версии FDM.<br />Пожалуйста, <a href='https://www.freedownloadmanager.org/download.htm' target='_blank'>обновите</a> её.",
+    "description": "Message about updating FDM. "
+  },
+  "settings_options": {
+    "message": "Настройки",
+    "description": "Options"
+  },
+  "settings_help_and_feedback": {
+    "message": "Помощь и обратная связь",
+    "description": "Help and Feedback"
+  },
+
+  "section_install_start": {
+    "message": ".",
+    "description": "=== INSTALL PAGE START ==="
+  },
+  "install_successfully": {
+    "message": "Расширение FDM успешно установлено",
+    "description": "FDM extension successfully installed"
+  },
+  "install_set_up_fdm": {
+    "message": "Для использования, пожалуйста, установите Free Download Manager. <br /> Доступен для Windows и Mac.",
+    "description": "To use it, please set up Free Download Manager. <br /> It's available for Windows and Mac."
+  },
+  "install_free_save": {
+    "message": "Быстро, бесплатно и безопасно.",
+    "description": "It's fast, free and safe."
+  },
+  "install_action": {
+    "message": "Установить",
+    "description": "Install"
+  },
+
+  "section_consent_start": {
+    "message": ".",
+    "description": "=== CONSENT PAGE START ==="
+  },
+  "consent_title": {
+    "message": "Конфиденциальность расширения FDM",
+    "description": "Privacy consent page title"
+  },
+  "consent_text": {
+    "message": "<p>Free Download Manager не собирает и не передает публично или третьим лицам никакой личной информации.</p><p>Когда браузер начинает загрузку, расширение Free Download Manager использует только те данные, которые необходимы для загрузки этого файла с конкретного сайта. Эти данные необходимы для начала, возобновления загрузки или планирования загрузки в Free Download Manager. Данные могут включать URL, интернет-адрес, куки, параметры запроса, данные POST-запроса, а именно все данные, которые браузер отправляет на сервер при запросе файла.</p><p>Эти данные используются только на локальном компьютере для начала загрузки.</p><p>Если вы решите не разрешать нам собирать анонимные данные, расширение FDM будет немедленно удалено из вашего браузера.</p><p>Подробная информация об анонимных данных, которые мы собираем, и о том, как мы их используем, представлена в нашей <a class='privacy_link' href='https://www.freedownloadmanager.org/privacy.htm' target='_blank'>Политике конфиденциальности</a>.</p>",
+    "description": "Privacy consent text with policy link"
+  },
+  "consent_agree": {
+    "message": "Разрешить сбор анонимных данных",
+    "description": "Agree button text"
+  },
+  "consent_decline": {
+    "message": "Отказаться от сбора анонимных данных",
+    "description": "Decline button text"
+  }
+
+}

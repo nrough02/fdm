@@ -1,0 +1,152 @@
+{
+  "appName": {
+    "message": "Free Download Manager",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appShortName": {
+    "message": "FDM",
+    "description": "Short name of the application, displayed in appropriate contexts."
+  },
+  "appDesc": {
+    "message": "Free Download Manager 浏览器集成",
+    "description": "The description of the application, displayed in the web store."
+  },
+
+  "section_context_menu": {
+    "message": ".",
+    "description": "=== CONTEXT MENU START ==="
+  },
+  "menuThis": {
+    "message": "使用 Free Download Manager 下载",
+    "description": "Context menu item for links and images"
+  },
+  "menuAll": {
+    "message": "使用 Free Download Manager 下载全部",
+    "description": "Context menu item for pages"
+  },
+  "menuSelected": {
+    "message": "使用 Free Download Manager 下载所选内容",
+    "description": "Context menu item for selection"
+  },
+  "menuVideo": {
+    "message": "使用 Free Download Manager 下载视频",
+    "description": "Context menu item for videos"
+  },
+  "menuChannelVideos": {
+    "message": "使用 Free Download Manager 下载频道视频",
+    "description": "Context menu item for channel videos"
+  },
+  "menuVideoShort": {
+    "message": "下载视频",
+    "description": "Context menu item for videos"
+  },
+  "menuChannelVideosShort": {
+    "message": "下载频道视频",
+    "description": "Context menu item for channel videos"
+  },
+  "menuPlaylistVideosShort": {
+    "message": "下载播放列表视频",
+    "description": "Context menu item for playlist videos"
+  },
+  "menuSite": {
+    "message": "使用 Free Download Manager 下载网站",
+    "description": "Context menu item for site"
+  },
+
+  "section_service_messages_start": {
+    "message": ".",
+    "description": "=== SERVICE MESSAGES START ==="
+  },
+  "installCorrupted": {
+    "message": "Free Download Manager 安装已损坏。请重新安装。",
+    "description": "Message on corrupted FDM installation."
+  },
+  "installMissing": {
+    "message": "未找到 Free Download Manager。请安装该程序。",
+    "description": "Message on missing FDM installation."
+  },
+  "installUnknownError": {
+    "message": "未知错误。请重新安装 Free Download Manager。",
+    "description": "Message on unknown error with FDM installation."
+  },
+  "addingAfterCancelFailed": {
+    "message": "浏览器拒绝下载。您可以再次点击下载链接，通过浏览器重试下载",
+    "description": "Message to display if user hit Cancel in FDM and adding to browser is failed"
+  },
+  "dlbyfdm": {
+    "message": "使用 FDM 下载",
+    "description": "Download button for video"
+  },
+
+  "section_settings_start": {
+    "message": ".",
+    "description": "=== SETTINGS PAGE START ==="
+  },
+  "settings_loading": {
+    "message": "加载中...",
+    "description": "Loading message shown during settings initialization"
+  },
+  "settings_pause_downloads": {
+    "message": "暂停捕获所有网站的下载",
+    "description": "Pause to catch downloads option"
+  },
+  "settings_dont_catch_downloads": {
+    "message": "不捕获此网站的下载",
+    "description": "Don't catch downloads option"
+  },
+  "settings_update_message": {
+    "message": "您的 FDM 版本不支持这些设置。<br />请<a href='https://www.freedownloadmanager.org/download.htm' target='_blank'>更新</a>程序。",
+    "description": "Message about updating FDM"
+  },
+  "settings_options": {
+    "message": "选项",
+    "description": "Options"
+  },
+  "settings_help_and_feedback": {
+    "message": "帮助和反馈",
+    "description": "Help and Feedback"
+  },
+
+  "section_install_start": {
+    "message": ".",
+    "description": "=== INSTALL PAGE START ==="
+  },
+  "install_successfully": {
+    "message": "FDM 扩展安装成功",
+    "description": "FDM extension successfully installed"
+  },
+  "install_set_up_fdm": {
+    "message": "要使用它，请安装 Free Download Manager。<br />支持 Windows 和 Mac。",
+    "description": "To use it, please set up Free Download Manager. <br /> It's available for Windows and Mac."
+  },
+  "install_free_save": {
+    "message": "快速、免费且安全。",
+    "description": "It's fast, free and safe."
+  },
+  "install_action": {
+    "message": "安装",
+    "description": "Install"
+  },
+
+  "section_consent_start": {
+    "message": ".",
+    "description": "=== CONSENT PAGE START ==="
+  },
+  "consent_title": {
+    "message": "FDM 扩展隐私",
+    "description": "Privacy consent page title"
+  },
+  "consent_text": {
+    "message": "<p>Free Download Manager 不会收集或与第三方公开共享任何个人身份信息。</p><p>当浏览器开始下载时，Free Download Manager 扩展仅使用从特定网站下载此文件所需的数据。这些数据对于在 Free Download Manager 中开始、恢复下载或计划下载是必需的。数据可能包括 URL、互联网地址、cookies、查询参数、发布数据，即浏览器在请求文件时发送到服务器的所有数据。</p><p>这些数据仅在本地计算机上用于开始下载。</p><p>如果您选择不允许我们收集匿名数据，FDM 扩展将立即从您的浏览器中删除。</p><p>有关我们收集的匿名数据以及我们如何使用这些数据的完整详细信息，请参阅我们的<a class='privacy_link' href='https://www.freedownloadmanager.org/privacy.htm' target='_blank'>隐私政策</a>。</p>",
+    "description": "Privacy consent text with policy link"
+  },
+  "consent_agree": {
+    "message": "同意匿名数据收集",
+    "description": "Agree button text"
+  },
+  "consent_decline": {
+    "message": "拒绝匿名数据收集",
+    "description": "Decline button text"
+  }
+
+}
