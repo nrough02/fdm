@@ -63,6 +63,9 @@ FDMsettings.prototype.initialize = function () {
         }
     });
 
+    window.browser.runtime.sendMessage({type: "get_settings_for_page"}, this.onGotSettings.bind(this));
+    window.browser.runtime.sendMessage({type: "get_build_version_for_page"}, this.onGotBuildVersion.bind(this));
+    window.browser.runtime.sendMessage({type: "get_pause_on_all_sites_flag"}, this.onGotPauseOnAllSites.bind(this));
     i18nHelper.localizePage();
     this.addEventListeners();
     this.setupDebugPanel();
@@ -83,10 +86,10 @@ FDMsettings.prototype.handleError = function () {
 
 FDMsettings.prototype.onGotSettings = function (settings) {
     try {
-        this.settings = settings;
-        this.skipServersEnabled = this.settings.browser.monitor.skipServersEnabled === "1";
-        this.skipHosts = fdmExtUtils.skipServers2array(this.settings.browser.monitor.skipServers);
-        this.checkCurrentUrlInSkipList();
+    this.settings = settings;
+    this.skipServersEnabled = this.settings.browser.monitor.skipServersEnabled === "1";
+    this.skipHosts = fdmExtUtils.skipServers2array(this.settings.browser.monitor.skipServers);
+    this.checkCurrentUrlInSkipList();
         customLogger.log("Settings loaded successfully: " + JSON.stringify(settings));
     } catch (error) {
         console.error("Error processing settings:", error);
@@ -220,11 +223,11 @@ FDMsettings.prototype.updatePageState = function () {
             if (settingsElement) settingsElement.style.display = "none";
             if (optionsElement) optionsElement.style.display = "none";
             if (updateElement) updateElement.style.display = "block";
-        } else {
+    } else {
             if (updateElement) updateElement.style.display = "none";
             if (settingsElement) settingsElement.style.display = "block";
             if (optionsElement) optionsElement.style.display = "block";
-        }
+    }
 
         customLogger.log("Page state updated successfully");
     } catch (error) {
@@ -239,7 +242,7 @@ FdmSettingsPageHelper.prototype.setIcon = function (in_pause) {
         if (in_pause) {
             chrome.action.setIcon({ path: "/assets/icons/fdm16d.png" })
                 .catch(err => console.error("Error setting paused icon:", err));
-        } else {
+    } else {
             chrome.action.setIcon({ path: "/assets/icons/fdm16.png" })
                 .catch(err => console.error("Error setting active icon:", err));
         }

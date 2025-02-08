@@ -1549,14 +1549,14 @@ DownloadsInterceptManager.prototype.onDeterminingFilename = function (downloadIt
     });
 
     // Get request details
-    var details;
+	var details;
     var requestDetailsIndex = this.requestDetailsIndexByOriginalUrl(
         downloadItem.finalUrl);
     if (requestDetailsIndex !== -1) {
-        details = this.requestDetailsByRequestUrl[requestDetailsIndex];
+		details = this.requestDetailsByRequestUrl[requestDetailsIndex];
         this.requestDetailsByRequestUrl.splice(requestDetailsIndex, 1);
     }
-
+    
     // Check if we should skip this download
     if (!this.enable || this.pauseCatchingForAllSites || this.inSkipList(downloadItem.url))
         return;
@@ -1564,18 +1564,6 @@ DownloadsInterceptManager.prototype.onDeterminingFilename = function (downloadIt
     // Rest of the existing download handling logic...
     if (downloadItem.totalBytes != 0 && downloadItem.totalBytes != -1 && downloadItem.totalBytes < this.skipSmaller)
         return;
-
-    // Process the download
-    this.onDownloadIntercepted(new DownloadInfo(
-        downloadItem.url,
-        downloadItem.finalUrl,
-        downloadItem.referrer,
-        details && details.postData ? details.postData : "",
-        details ? details.documentUrl : "")
-    );
-
-    return true;
-};
 
     /* 
         According to documentation, downloadItem.totalBytes should be -1 when it is unknown: 
