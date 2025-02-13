@@ -1,13 +1,13 @@
-function TabInfo()
-{
+function TabInfo() {
     this.hasVideo = false;
+    this.title = ""; // Add this line to store tab title
 }
 
-TabInfo.prototype.update = function(
-    tab)
-{
+TabInfo.prototype.update = function(tab) {
     if (tab.hasOwnProperty("url"))
         this.url = tab.url;
+    if (tab.hasOwnProperty("title")) // Add this to capture title
+        this.title = tab.title;
 }
 
 function TabsManager(nhManager)
