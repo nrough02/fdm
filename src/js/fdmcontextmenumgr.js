@@ -98,6 +98,20 @@ FdmContextMenuManager.prototype.onUserDownloadLinks = function (
 FdmContextMenuManager.prototype.onUserDownloadVideo = function (
     pageUrl)
 {
+    if (pageUrl.includes("https://www.thepornbunny.com/")) {
+        // Get active tab info
+        let activeTab = this.tabsManager.tabs[this.tabsManager.activeTabId];
+        if (activeTab && activeTab.title) {
+            // Create download task with custom filename
+            let task = new FdmBhCreateDownloadsTask();
+            let downloadInfo = new DownloadInfo();
+            downloadInfo.url = pageUrl;
+            downloadInfo.fileName = activeTab.title + ".mp4"; // Set custom filename
+            task.addDownload(downloadInfo);
+            this.nhManager.postMessage(task);
+            return;
+        }
+    }
     if (this.nhManager.legacyPort || this.shouldDownloadAsLinks(pageUrl))
     {
         var youtubeVideosFlag = 0;
